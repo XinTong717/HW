@@ -1,3 +1,5 @@
+//Citation: https://www.w3schools.com/css/css_dropdowns.asp
+
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
   document.getElementById("myDropdown2").classList.toggle("show2");

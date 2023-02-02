@@ -163,7 +163,7 @@ a:hover#detail{
     font: 30px Arial, sans-serif;
 }
 
-/* Dropdown Button */
+/* Citation: https://www.w3schools.com/css/css_dropdowns.asp Dropdown Button */
 .dropbtn {
     margin-top: 30px;
     background-color: #ffffff;
