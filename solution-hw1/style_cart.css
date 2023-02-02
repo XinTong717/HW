@@ -1,0 +1,116 @@
+body{
+  font-family: sans-serif;
+}
+.logo {
+  width: 250px;
+  height: 150px;
+}
+
+
+.add {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 350px;
+  background-color: rgb(255, 255, 255);
+}
+
+.box1 {
+  background-image: url("../../HW/assets/products/original-cinnamon-roll.jpg");
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  border: solid 3px #000;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+
+.box5 {
+  background-image: url("../../HW/assets/products/double-chocolate-cinnamon-roll.jpg");
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  border: solid 3px #000;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+
+
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #000;
+}
+
+hr.end {
+  border-top: 3px solid #000;
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.remove{
+  margin: 10px;
+  font: 10px Arial, sans-serif; 
+}
+
+.text{
+  font: 30px Arial, sans-serif; 
+}
+
+.price{
+  margin-top: 30px;
+  font: 30px Arial, sans-serif; 
+}
+
+div#pro{
+  margin: 10px;
+  padding: 10px;
+}
+
+div#cart{
+  margin: 10px;
+  padding: 10px;
+}
+
+div#intro{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font: 50px Arial, sans-serif; 
+
+}
+
+a#product {
+  color:#000;
+}
+
+a:link#product {
+  background: #FFFF00;
+  font: 30px Arial, sans-serif; 
+  text-decoration:none;
+}
+
+a#CART {
+  color:#000;
+
+}
+
+a:link#CART {
+  text-decoration:none;
+  font: 30px Arial, sans-serif; 
+}
+
+.checkout {
+  margin-top: 20px;
+  background-color: #FFFF00; 
+  border: solid 2px, #000;
+  width: 250px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
